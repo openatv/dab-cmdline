@@ -101,7 +101,7 @@ uint16_t i;
 
 	switch (charset) {
 	   case UnicodeUcs2:
-	      throw std::logic_error("UnicodeUcs2 to Utf8 not yet implemented")
+	      throw std::logic_error("UnicodeUcs2 to Utf8 not yet implemented");
 	      break;
 
 	   case UnicodeUtf8:
